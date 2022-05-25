@@ -1,4 +1,5 @@
-radio.setGroup(1)
+radio.setGroup(19)
+radio.setTransmitPower(1)
 basic.forever(function () {
-	
+    radio.sendString("1")
 })
